@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+div {
+    line-height: 0px;
+}
+
+.pacman, .wall, .ground, .coin, .ghost1 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.pacman {
+    background-image: url('../img/pacman.png');
+}
+
+.wall {
+    background-image: url('../img/wall.png');
+}
+
+.ground {
+    background-image: url('../img/bg.png');
+}
+
+.coin {
+    background-image: url('../img/coin.png');
+}
+
+.ghost1 {
+    background-image: url('../img/ghost1.png');
+}
